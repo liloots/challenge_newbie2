@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Overpass';
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.star {
+  margin-top: 3px;
+}
+
+.background-star {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  margin-bottom: 2em;
+  background-color: hsl(216, 8%, 37%)
+}
+
+.container {
+  background-color: hsl(213, 19%, 18%);
+  width: 360px;
+  height: 360px;
+  padding: 25px;
+  border-radius: 20px;
+  margin-bottom: 5em;
+}
+
+.container h3 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 1em;
+}
+
+.grey-color {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
+
+.rating-content {
+  margin-bottom: 1.5em;
+}
+
+.rating ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-bottom: 2.5em;
+  gap: 25px;
+}
+
+.rating li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: hsl(216, 8%, 37%);
+  color: hsl(217, 12%, 63%);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+ .rating li:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.selecionado {
+  background-color: hsl(25, 97%, 53%) !important;
+  color: hsl(0, 0%, 100%) !important;
+}
+
+.btn-submit {
+  width: 100%;
+  border: none;
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+  padding: 10px;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 20px;
+}
+
+.btn-submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* THANK YOU PAGE */
+
+.container {
+  background-color: hsl(213, 19%, 18%);
+  width: 360px;
+  height: 360px;
+  padding: 25px;
+  border-radius: 20px;
+  margin-bottom: 5em;
+}
+
+.thx-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.info-rating {
+  display: flex;
+  justify-content: center;
+}
+
+.info-rating-thx {
+  background-color: hsl(216, 8%, 37%);
+  text-align: center;
+  margin-bottom: 2em;
+  border-radius: 25px;
+  padding: 5px;
+  width: 200px;
+  color: hsl(25, 97%, 53%);
+}
+
+.thx-content {
+  text-align: center;
+}
+
+
+
+.button-group > button {
+  box-shadow: none;
+  border: 1px solid #cecece;
+  background: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonClicked {
+  background-color: #628cea !important;
+  color: #fff;
+}
